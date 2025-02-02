@@ -79,3 +79,15 @@ instructions for reporting a bug
 ### Contributing
 
 Please see [CONTRIBUTING](CONTRIBUTING.md) for more info.
+
+### Start
+
+org.apache.catalina.startup.Bootstrap
+
+```
+-Dcatalina.home=F:/source/tomcat/home
+-Dcatalina.base=F:/source/tomcat/home
+-Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+-Djava.util.logging.config.file=F:/source/tomcat/home/conf/logging.properties
+-Dfile.encoding=utf-8
+```
